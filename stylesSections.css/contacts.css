@@ -33,3 +33,47 @@
 .wrapper-contacts img:hover{
     filter: grayscale(0);
 }
+
+
+@media (max-width: 830px){
+    .wrapper-contacts {
+        width: 70%;
+        margin: 0 auto;
+        padding: 96px 0 70px;
+    }
+}
+@media (max-width: 830px){
+    .wrapper-contacts {
+        width: 96%;
+    }
+}
+
+@media (max-width: 540px){
+    .phone img {
+        width: 66px;
+        height: 54px;
+    }
+    .skype img, .vk img, .linkedin img {
+        width: 58px;
+        height: 56px;
+    }
+    .mail img {
+        width: 62px;
+        height: 62px;
+    }
+}
+
+@media (max-width: 540px){
+    .phone img {
+        width: 46px;
+        height: 34px;
+    }
+    .skype img, .vk img, .linkedin img {
+        width: 38px;
+        height: 36px;
+    }
+    .mail img {
+        width: 42px;
+        height: 42px;
+    }
+}

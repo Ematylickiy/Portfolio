@@ -42,3 +42,29 @@
 .tag {
     background-image: url('../works-image/Tag.png');
 }
+
+
+
+
+@media (max-width: 830px){
+    .block-link-work {
+        width: 254px;
+        height: 160px;
+    }
+    .wrapper-myWorks{
+        font-size: 14px;
+        width: 100%;
+        padding: 120px 0 50px;
+    }
+}
+
+@media (max-width: 640px){
+    .block-link-work {
+        width: 239px;
+        height: 150px;
+    }
+    .wrapper-myWorks{
+        font-size: 13px;
+        width: 93%;
+    }
+}

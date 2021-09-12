@@ -36,3 +36,51 @@ nav a:hover {
     background: center url('/image-logo-myphoto/Ме-removebg-preview.png');
     background-size: cover;
 }
+
+
+@media (max-width: 900px){
+    .nav-wrapper {
+        width: 95%;
+    }
+}
+
+@media (max-width: 716px){
+    .nav-wrapper{
+        font-size: 22px;
+    }
+}
+
+
+@media (max-width: 605px){
+    .nav-wrapper {
+        width: 100%;
+        font-size: 20px;
+    }
+    .logotip {
+        width: 109px;
+        height: 53px;
+    }
+}
+
+@media (max-width: 525px){
+    .nav-wrapper {
+        font-size: 16px;
+    }
+    .logotip {
+        width: 81px;
+        height: 39px;
+    }
+}
+
+@media (max-width: 440px){
+    .nav-wrapper {
+        font-size: 14px;
+    }
+    .logotip {
+        width: 71px;
+        height: 30px;
+    }
+    nav a {
+        margin-right: 12px;
+    }
+}

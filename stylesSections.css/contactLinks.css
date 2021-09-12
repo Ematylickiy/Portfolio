@@ -28,3 +28,11 @@
 .contacts-links a :hover {
     opacity: 1;
 }
+
+
+
+@media (max-width: 850px){
+    .links-fixed {
+        display:none;
+    }
+}
