@@ -1,0 +1,63 @@
+
+.homePage {
+    min-height: 872px;
+}
+
+.text-hello {
+    width: 50%;
+    padding: 228px 0px 20px 216px;
+    font-size: 34px;
+    color: rgb(255, 247, 231);
+    letter-spacing: 1px;
+}
+
+.photo {
+    position: absolute;
+    top: 10px;
+    width: 1070px;
+    right: 51px;
+    min-height: 862px;
+    background-image: url('../image-logo-myphoto/IMG_6330-removebg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    opacity: 0;
+    filter: grayscale(40%);
+}
+
+.opacityPhoto {
+    transition-duration: 2s;
+    opacity: 1;
+}
+
+.cv-wrap {
+    width: 12%;
+    margin-left: 216px;
+    text-align: center;
+}
+.logo-download {
+    width: 21px;
+    display: inline-block;
+    height: 20px;
+    margin-left: 10px;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/1103/1103449.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.link-cv{
+    width: 100%;
+    padding: 8px;
+    display: inline-block;
+    font-size: 19px ;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    border-radius: 10px;
+    background: #b9cfcc;
+    color: rgb(51, 51, 51);
+    cursor: pointer;
+}
+
+.link-cv:hover{
+    background-color: rgb(149, 199, 195);
+}

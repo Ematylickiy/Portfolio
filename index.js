@@ -21,19 +21,6 @@ function changeOpacityPhoto() {
     myPhoto.classList.add('opacityPhoto');
 }
 changeOpacityPhoto()
-//////////////////////////////////////////////////////////////////////////////////////////////
-let scrollUp = ''
-document.addEventListener('scroll', () => {
-    const nav = document.querySelector('nav')
-    if (scrollUp < pageYOffset) {
-        nav.classList.add('opacityNav')
-    }
-    else if (scrollUp = 0 || scrollUp > pageYOffset){
-        nav.classList.remove('opacityNav')
-    }
-    scrollUp = pageYOffset;
-})
-
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 function move() {
@@ -57,3 +44,16 @@ function move() {
 
 document.addEventListener('scroll', move)
 //////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+const anchors = document.querySelectorAll('a[href*="#"]')
+
+anchors.forEach(anchor => anchor.addEventListener('click', function (e) {
+    e.preventDefault()
+    const blockID = anchor.getAttribute('href').substr(1)
+    document.getElementById(blockID).scrollIntoView({
+    behavior: 'smooth',
+    block: 'start'
+  })
+}))
+

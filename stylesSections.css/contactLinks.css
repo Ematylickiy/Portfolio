@@ -1,0 +1,30 @@
+.contacts-links {
+    position: fixed;
+    left: 40px;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    list-style: none;
+    z-index: 10;
+}
+
+.contacts-links :last-child ::after {
+    content: "";
+    display: block;
+    margin: 0px auto;
+    width: 2px;
+    height: 90px;
+    background: radial-gradient(ellipse at center,#ddd 10%,rgba(255,255,255,0) 80%); 
+}
+.contact-link{
+    margin-bottom: 3px;
+    width: 40px;
+    height: 40px;
+    opacity: 0.3;
+    transition: 0.3s;
+}
+
+.contacts-links a :hover {
+    opacity: 1;
+}

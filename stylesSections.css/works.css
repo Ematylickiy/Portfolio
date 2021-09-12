@@ -1,0 +1,44 @@
+.works .headerPage {
+    background: rgb(70 70 70);
+}
+
+.wrapper-myWorks {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    padding: 150px 0 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.block-link-work{
+    display: block;
+    width: 270px;
+    height: 170px;
+    margin: 0 20px 60px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    filter: grayscale(100%) blur(1px);
+    transition-duration: 0.5s;
+}
+
+.block-link-work:hover{
+    filter: grayscale(0) blur(0);
+}
+.cinema {
+    background-image: url('../works-image/cinema.png');
+}
+.library {
+    background-image: url('../works-image/Library.png');
+}
+.todo {
+    background-image: url('../works-image/todoList.png')
+}
+.slider {
+    background-image: url('../works-image/slider.png')
+}
+.tag {
+    background-image: url('../works-image/Tag.png');
+}

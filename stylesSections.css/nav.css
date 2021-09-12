@@ -1,0 +1,38 @@
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(94,94,94,.7);
+    backdrop-filter: blur(4px);
+    z-index: 100;
+}
+
+.nav-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    z-index: 100;
+}
+
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 0.7;
+}
+
+nav a:hover {
+    opacity: 1;
+}
+
+.logotip {
+    width: 120px;
+    height: 58px;
+    background: center url('/image-logo-myphoto/Ме-removebg-preview.png');
+    background-size: cover;
+}

@@ -5,6 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="/stylesSections.css/nav.css" />
+    <link rel="stylesheet" href="/stylesSections.css/home.css" />
+    <link rel="stylesheet" href="/stylesSections.css/aboutMe.css" />
+    <link rel="stylesheet" href="/stylesSections.css/mySkills.css" />
+    <link rel="stylesheet" href="/stylesSections.css/contactLinks.css" />
+    <link rel="stylesheet" href="/stylesSections.css/works.css" />
+    <link rel="stylesheet" href="/stylesSections.css/contacts.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -32,7 +41,7 @@
         Hi there! My name's Egor Matylickiy. I'm a Front End developer
       </h1>
       <div class="cv-wrap">
-        <a href="./Matylitskiy Egor (2).pdf" class="link-cv" download="">
+        <a href="./Matylitskiy-Egor.pdf" class="link-cv" download>
           Download CV
           <div class="logo-download"></div>
         </a>
@@ -40,19 +49,19 @@
       <div class="photo"></div>
     </section>
 
-
     <section id="about" class="about-me-page background-70-70-70">
-      <h2 class="namePage">
-        About me
+      <div class="headerPage">
+        <h2 class="namePage">About me</h2>
         <div class="lineUnderNamePage"></div>
-      </h2>
+      </div>
+
       <div class="wrapper-timeline">
         <div class="timeline line-38">
           <h5>
             Experience
             <img
               src="https://cdn-icons-png.flaticon.com/512/4413/4413797.png"
-              alt=""
+              alt="experience"
             />
           </h5>
           <ul>
@@ -78,17 +87,26 @@
           </ul>
           <div class="wrapper-softSkills">
             <h3>Soft skills</h3>
-            <li><p>Teamwork</p><span class="bar"><span></span=></span></li>
-            <li><p>Communication</p><span  class="bar"><span></span> </span></li>
-            <li><p>Flexibility</p><span class="bar"><span></span> </span></li>
+            <div>
+              <p>Teamwork</p>
+              <span class="bar"><span></span></span>
+            </div>
+            <div>
+              <p>Communication</p>
+              <span class="bar"><span></span> </span>
+            </div>
+            <div>
+              <p>Flexibility</p>
+              <span class="bar"><span></span> </span>
+            </div>
           </div>
-      </div>
+        </div>
         <div class="timeline">
           <h5>
             Education
             <img
               src="https://cdn-icons-png.flaticon.com/512/3135/3135755.png"
-              alt=""
+              alt="education"
             />
           </h5>
           <ul>
@@ -123,15 +141,15 @@
               </div>
             </li>
           </ul>
-        </div>      
+        </div>
+      </div>
     </section>
 
-
     <section id="skills" class="skills-page background-gradient">
-      <h2 class="namePage">
-        My skills
+      <div class="headerPage">
+        <h2 class="namePage">My skills</h2>
         <div class="lineUnderNamePage"></div>
-      </h2>
+      </div>
       <div class="wrap-skills">
         <div>
           <div class="progress orange">
@@ -185,14 +203,111 @@
       <div class="wrap-workflow">
         <h4>Workflow, Tools</h4>
         <div class="workflow">
-          <img src="https://img.icons8.com/color/80/000000/git.png" />
-          <img src="https://img.icons8.com/color/80/000000/redux.png" />
-          <img src="https://img.icons8.com/color/80/000000/sass.png" />
-          <img src="https://img.icons8.com/officel/80/000000/sql.png" />
+          <img src="https://img.icons8.com/color/80/000000/git.png" alt="git" />
+          <img
+            src="https://img.icons8.com/color/80/000000/redux.png"
+            alt="redux"
+          />
+          <img
+            src="https://img.icons8.com/color/80/000000/sass.png"
+            alt="sass"
+          />
+          <img
+            src="https://img.icons8.com/officel/80/000000/sql.png"
+            alt="sql"
+          />
         </div>
       </div>
     </section>
-    <!-- ////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <section id="works" class="works background-70-70-70">
+      <div class="headerPage">
+        <h2 class="namePage">Works</h2>
+        <div class="lineUnderNamePage"></div>
+      </div>
+      <div class="wrapper-myWorks">
+        <div>
+          <p>Cinema (HTML, CSS, JS)</p>
+          <a
+            href="https://ematylickiy.github.io/Cinema/"
+            class="cinema block-link-work shadow"
+          ></a>
+        </div>
+        <div>
+          <p>Library of books (React, HTML, CSS, JSX, JS)</p>
+          <a
+            href="https://github.com/Ematylickiy/Book-library"
+            class="library block-link-work shadow"
+          ></a>
+        </div>
+        <div>
+          <p>Todo list (HTML, CSS, JS)</p>
+          <a
+            href="https://ematylickiy.github.io/TodoLIST-JS-/"
+            class="todo block-link-work shadow"
+          ></a>
+        </div>
+        <div>
+          <p>Slider (HTML, CSS, JS)</p>
+          <a
+            href="https://github.com/Ematylickiy/BurgerMenu/pull/5/files"
+            class="slider block-link-work shadow"
+          ></a>
+        </div>
+        <div>
+          <p>Tag (HTML, CSS, JS)</p>
+          <a
+            href="https://ematylickiy.github.io/Tag/"
+            class="tag block-link-work shadow"
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contacts-page background-gradient">
+      <div class="headerPage">
+        <h2 class="namePage">Contact me</h2>
+        <p class="lineUnderNamePage"></p>
+      </div>
+      <div class="wrapper-contacts">
+        <div class="mail">
+          <a href="mailto:egormatylitskiy@gmail.com"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/512/732/732200.png"
+              alt="mail"
+          /></a>
+        </div>
+        <div class="skype">
+          <a href="https://join.skype.com/invite/NgYVtiYdtXbg"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/512/124/124038.png"
+              alt="skype"
+          /></a>
+        </div>
+        <div class="vk">
+          <a href="https://vk.com/cherepashka5"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/512/3536/3536582.png"
+              alt="vk"
+          /></a>
+        </div>
+        <div class="linkedin">
+          <a href="https://www.linkedin.com/in/egor-matylickiy-6abb4720b/"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/512/1409/1409945.png"
+              alt="linkedin"
+          /></a>
+        </div>
+        <div class="phone">
+          <a href="tel:+375297323472"
+            ><img
+              src="https://blog.financemarker.ru/content/images/2019/04/1200px-MTS_logo_2015--3-.jpg"
+              alt="phone"
+          /></a>
+        </div>
+      </div>
+    </section>
+
     <div>
       <ul class="contacts-links">
         <li>
@@ -200,7 +315,7 @@
             ><img
               class="contact-link"
               src="https://cdn-icons-png.flaticon.com/512/187/187190.png"
-              alt="myImage"
+              alt="skype"
           /></a>
         </li>
         <li>
@@ -208,7 +323,7 @@
             ><img
               class="contact-link"
               src="https://cdn-icons-png.flaticon.com/512/536/536452.png"
-              alt="myImage"
+              alt="github"
           /></a>
         </li>
         <li>
@@ -216,7 +331,7 @@
             ><img
               class="contact-link"
               src="https://cdn-icons-png.flaticon.com/512/3955/3955024.png"
-              alt="myImage"
+              alt="instagram"
           /></a>
         </li>
         <li>
@@ -224,72 +339,11 @@
             ><img
               class="contact-link"
               src="https://cdn-icons-png.flaticon.com/512/3665/3665214.png"
-              alt="myImage"
+              alt="linkedin"
           /></a>
         </li>
       </ul>
     </div>
-    <!-- ////////////////////////////////////////////////////////////////////////////////////////////// -->
-
-    <section id = 'works'class="works background-70-70-70">
-      <h2 class="namePage">
-        Works
-        <div class="lineUnderNamePage"></div>
-      </h2>
-      <div class="wrapper-myWorks">
-        <div>
-          <p>Cinema (HTML, CSS, JS)</p>
-          <a href="https://ematylickiy.github.io/Cinema/" class="cinema block-link-work shadow"></a>
-        </div>
-        <div>
-          <p>Library of books (React, HTML, CSS, JSX, JS)</p>
-          <a href="https://github.com/Ematylickiy/Book-library" class="library block-link-work shadow"></a>
-        </div>
-        <div>
-          <p>Todo list (HTML, CSS, JS)</p>
-          <a href="https://ematylickiy.github.io/TodoLIST-JS-/" class="todo block-link-work shadow"></a>
-        </div>
-        <div>
-          <p>Slider (HTML, CSS, JS)</p>
-          <a href="https://github.com/Ematylickiy/BurgerMenu/pull/5/files" class="slider block-link-work shadow"></a>
-        </div>
-        <div>
-          <p>Tag (HTML, CSS, JS)</p>
-          <a href="https://ematylickiy.github.io/Tag/" class="tag block-link-work"></a>
-        </div>
-      </div>
-    </section>
-     <!-- ////////////////////////////////////////////////////////////////////////////////////////////// -->
-     <section id ='contact'class="contacts-page background-gradient">
-      <h2 class="namePage">
-        Contact me
-        <div class="lineUnderNamePage"></div>
-      </h2>
-      <div class="wrapper-form">
-        <h3>Still have question? Just write to me!</h3>
-        <form action='index.php' method="POST">
-          <div class="inputs-form">
-            <div class="input-wrapper shadow">
-              <div class="input-img-user inp-img"></div>
-              <input type="text" name="name" placeholder="Name">
-            </div>
-            <div class="input-wrapper shadow">
-              <div class="input-img-email inp-img"></div>
-              <input type="text" name="email" placeholder="Email address">
-            </div>
-
-          </div>
-          <textarea class="shadow" name="text" placeholder="Your message..."></textarea>
-          <div class="button">
-            <input type="submit"  value="SEND">
-            <a href="tel:+375297323472">МТС</a>
-            <a href="mailto: egormatylitskiy@gmail.com">МТС</a>
-            
-          </div>
-        </form>
-      </div>
-    </section>
     <script src="index.js"></script>
   </body>
 </html>
-

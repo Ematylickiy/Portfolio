@@ -1,0 +1,35 @@
+.contacts-page .headerPage {
+    background: rgb(95, 95, 95);
+}
+
+.wrapper-contacts{
+    width: 70%;
+    margin: 0 auto;
+    padding: 150px 0 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mail img{
+    width: 80px;
+    height: 75px;
+}
+.phone img {
+    width: 85px;
+    height: 62px;
+}
+.skype img, .vk img, .linkedin img {
+    width: 65px;
+    height: 62px;;
+}
+
+.wrapper-contacts img {
+    border-radius: 10px;
+    filter: grayscale(50%);
+    transition: 0.5s;
+}
+
+.wrapper-contacts img:hover{
+    filter: grayscale(0);
+}
