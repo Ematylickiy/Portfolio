@@ -15,23 +15,22 @@
   </head>
   <body>
     <nav>
-      <div class="nav">
+      <div class="nav-wrapper">
         <div class="logotip"></div>
         <div class="links">
           <a href="#home">Home</a>
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
           <a href="#works">Works</a>
-          <a href="#contact">Contacts</a>
+          <a href="#contact">Contact me</a>
         </div>
       </div>
     </nav>
-    <!-- ////////////////////////////////////////////////////////////////////////////////////////////// -->
-    <section id="home" class="hello">
-      <h1 class="text-hello">
-        Hi, There! My name's Egor Matylickiy. I'm Front End developer
-      </h1>
 
+    <section id="home" class="homePage background-gradient">
+      <h1 class="text-hello">
+        Hi there! My name's Egor Matylickiy. I'm a Front End developer
+      </h1>
       <div class="cv-wrap">
         <a href="./Matylitskiy Egor (2).pdf" class="link-cv" download="">
           Download CV
@@ -40,9 +39,10 @@
       </div>
       <div class="photo"></div>
     </section>
-    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
-    <section id="about" class="about-me">
-      <h2>
+
+
+    <section id="about" class="about-me-page background-70-70-70">
+      <h2 class="namePage">
         About me
         <div class="lineUnderNamePage"></div>
       </h2>
@@ -57,7 +57,7 @@
           </h5>
           <ul>
             <li>
-              <div class="content">
+              <div class="content-timeLine">
                 <h3>Mobile TeleSystems</h3>
                 <p>Position: Sales Manager</p>
               </div>
@@ -67,12 +67,12 @@
             </li>
 
             <li>
-              <div class="content">
+              <div class="content-timeLine">
                 <h3>Belarusbank</h3>
                 <p>Position: Economist</p>
               </div>
               <div class="time">
-                <h4>2016 - 2021</h4>
+                <h4>2016 - 2017</h4>
               </div>
             </li>
           </ul>
@@ -83,8 +83,6 @@
             <li><p>Flexibility</p><span class="bar"><span></span> </span></li>
           </div>
       </div>
-
-
         <div class="timeline">
           <h5>
             Education
@@ -95,7 +93,7 @@
           </h5>
           <ul>
             <li>
-              <div class="content">
+              <div class="content-timeLine">
                 <h3>IT-school TeachMeSkills</h3>
                 <p>Direction: Front End</p>
               </div>
@@ -113,9 +111,8 @@
                 <h4>2016 - 2021</h4>
               </div>
             </li>
-
             <li>
-              <div class="content">
+              <div class="content-timeLine">
                 <h3>Novogrudok Trade and Economic College</h3>
                 <p style="width: 74%">
                   Specialty: Banking Qualification: Economist
@@ -128,9 +125,10 @@
           </ul>
         </div>      
     </section>
-    <!-- ////////////////////////////////////////////////////////////////////////////////////////////// -->
-    <section id="skills" class="skills">
-      <h2>
+
+
+    <section id="skills" class="skills-page background-gradient">
+      <h2 class="namePage">
         My skills
         <div class="lineUnderNamePage"></div>
       </h2>
@@ -198,7 +196,15 @@
     <div>
       <ul class="contacts-links">
         <li>
-          <a href=""
+          <a href="https://join.skype.com/invite/NgYVtiYdtXbg"
+            ><img
+              class="contact-link"
+              src="https://cdn-icons-png.flaticon.com/512/187/187190.png"
+              alt="myImage"
+          /></a>
+        </li>
+        <li>
+          <a href="https://github.com/Ematylickiy"
             ><img
               class="contact-link"
               src="https://cdn-icons-png.flaticon.com/512/536/536452.png"
@@ -206,7 +212,7 @@
           /></a>
         </li>
         <li>
-          <a href=""
+          <a href="https://instagram.com/matylek_?utm_medium=copy_link"
             ><img
               class="contact-link"
               src="https://cdn-icons-png.flaticon.com/512/3955/3955024.png"
@@ -214,7 +220,7 @@
           /></a>
         </li>
         <li>
-          <a href=""
+          <a href="https://www.linkedin.com/in/egor-matylickiy-6abb4720b/"
             ><img
               class="contact-link"
               src="https://cdn-icons-png.flaticon.com/512/3665/3665214.png"
@@ -225,7 +231,65 @@
     </div>
     <!-- ////////////////////////////////////////////////////////////////////////////////////////////// -->
 
+    <section id = 'works'class="works background-70-70-70">
+      <h2 class="namePage">
+        Works
+        <div class="lineUnderNamePage"></div>
+      </h2>
+      <div class="wrapper-myWorks">
+        <div>
+          <p>Cinema (HTML, CSS, JS)</p>
+          <a href="https://ematylickiy.github.io/Cinema/" class="cinema block-link-work shadow"></a>
+        </div>
+        <div>
+          <p>Library of books (React, HTML, CSS, JSX, JS)</p>
+          <a href="https://github.com/Ematylickiy/Book-library" class="library block-link-work shadow"></a>
+        </div>
+        <div>
+          <p>Todo list (HTML, CSS, JS)</p>
+          <a href="https://ematylickiy.github.io/TodoLIST-JS-/" class="todo block-link-work shadow"></a>
+        </div>
+        <div>
+          <p>Slider (HTML, CSS, JS)</p>
+          <a href="https://github.com/Ematylickiy/BurgerMenu/pull/5/files" class="slider block-link-work shadow"></a>
+        </div>
+        <div>
+          <p>Tag (HTML, CSS, JS)</p>
+          <a href="https://ematylickiy.github.io/Tag/" class="tag block-link-work"></a>
+        </div>
+      </div>
+    </section>
+     <!-- ////////////////////////////////////////////////////////////////////////////////////////////// -->
+     <section id ='contact'class="contacts-page background-gradient">
+      <h2 class="namePage">
+        Contact me
+        <div class="lineUnderNamePage"></div>
+      </h2>
+      <div class="wrapper-form">
+        <h3>Still have question? Just write to me!</h3>
+        <form action='index.php' method="POST">
+          <div class="inputs-form">
+            <div class="input-wrapper shadow">
+              <div class="input-img-user inp-img"></div>
+              <input type="text" name="name" placeholder="Name">
+            </div>
+            <div class="input-wrapper shadow">
+              <div class="input-img-email inp-img"></div>
+              <input type="text" name="email" placeholder="Email address">
+            </div>
 
+          </div>
+          <textarea class="shadow" name="text" placeholder="Your message..."></textarea>
+          <div class="button">
+            <input type="submit"  value="SEND">
+            <a href="tel:+375297323472">МТС</a>
+            <a href="mailto: egormatylitskiy@gmail.com">МТС</a>
+            
+          </div>
+        </form>
+      </div>
+    </section>
     <script src="index.js"></script>
   </body>
 </html>
+
